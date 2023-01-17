@@ -1,4 +1,4 @@
-# alt
+# alt(alternative) - 分岐処理
 ```mermaid
 sequenceDiagram
     participant cook as シェフ
@@ -11,7 +11,7 @@ sequenceDiagram
     end
 
 ```
-# opt
+# opt(option) - 実行の可否の選択
 ```mermaid
 sequenceDiagram
     participant cook as シェフ
@@ -22,7 +22,7 @@ sequenceDiagram
     end
 
 ```
-# par
+# par(parallel) - 並行
 ```mermaid
 sequenceDiagram
     participant cook as シェフ
@@ -34,7 +34,7 @@ sequenceDiagram
     end
 
 ```
-# loop & break
+# loop & break - 繰り返し & 処理の中断
 
 ```mermaid
 sequenceDiagram
@@ -56,7 +56,7 @@ sequenceDiagram
 | --- | --- | --- |
 |alt   |  alternative   |  分岐処理   |
 |opt	|option|	実行の可否の選択|
-|loop|	option|	繰り返し|
+|loop|	loop|	繰り返し|
 |break|	break|	処理の中断|
 |par|	parallel|	並行|
 |seq|	weak sequencing|	同じライフラインから送信されるメッセージの順序を保証|
